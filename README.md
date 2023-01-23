@@ -1,5 +1,5 @@
 [<img src="https://assets.signaloid.io/add-to-signaloid-cloud-logo-dark-v6.png#gh-dark-mode-only" alt="[Add to signaloid.io]" height="30">](https://signaloid.io/repositories?connect=https://github.com/kkr2/Signaloid-Demo-Airfoil#gh-dark-mode-only)
-
+[<img src="https://assets.signaloid.io/add-to-signaloid-cloud-logo-light-v6.svg#gh-light-mode-only" alt="[Add to signaloid.io]" height="30">](https://signaloid.io/repositories?connect=https://github.com/kkr2/#gh-light-mode-only)
 
 # Model of lift generation of an airfoil
 This is a small demo that models the realtion between the `geometry` of an airfoil and external measurements like `temperature`, `air density`, `altitude` and `pressure`, with `lift force`. For the external measurements like `pressure`,  `altitude` and `temperature` we have an accompanying error percentage that represent the mesurement error that is calculated as normal distribution with ranges `value+-error%`. This model shows an accurate 
