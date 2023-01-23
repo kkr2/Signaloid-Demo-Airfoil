@@ -2,8 +2,7 @@
 [<img src="https://assets.signaloid.io/add-to-signaloid-cloud-logo-light-v6.svg#gh-light-mode-only" alt="[Add to signaloid.io]" height="30">](https://signaloid.io/repositories?connect=https://github.com/kkr2/#gh-light-mode-only)
 
 # Model of lift generation of an airfoil
-This is a small demo that models the realtion between the `geometry` of an airfoil and external measurements like `temperature`, `air density`, `altitude` and `pressure`, with `lift force`. For the external measurements like `pressure`,  `altitude` and `temperature` we have an accompanying error percentage that represent the mesurement error that is calculated as normal distribution with ranges `value+-error%`. This model shows an accurate 
-
+This is a small demo that models the realtion between the `geometry` of an airfoil and external measurements like `temperature`, `air density`, `altitude` and `pressure`, with `lift force`. For the external measurements like `pressure`,  `altitude` and `temperature` we have an accompanying error percentage that represent the mesurement error that is calculated as normal distribution with ranges `value+-error%`. 
 ## Inputs
 The default inputs  are:
 -	`liftCoefficient`:      0.1
@@ -18,6 +17,26 @@ The default inputs  are:
 -	`altitudeError`:        0.01 (1%)
 
 ## Outputs
+
+### Es Readings:
+<img width="400" alt="Es" src="https://user-images.githubusercontent.com/43975216/214069548-3698c9ed-2247-4c08-9d8a-f8addc0081cf.png">
+
+### Pv Readings:
+<img width="400" alt="Pv" src="https://user-images.githubusercontent.com/43975216/214069710-6ad6766f-5f83-46e7-a0e1-efd66478a942.png">
+
+### Actual presure Readings:
+<img width="400" alt="AP" src="https://user-images.githubusercontent.com/43975216/214069898-3f5734b6-add0-4815-b019-c40fe40046e0.png">
+
+### Rho Readings:
+<img width="400" alt="Rho" src="https://user-images.githubusercontent.com/43975216/214070155-972378f6-48d3-4940-9aa1-296950a8335a.png">
+
+### Velocity Readings:
+<img width="400" alt="V" src="https://user-images.githubusercontent.com/43975216/214070302-9bf4b8e3-7308-475b-bae4-37927c2f9109.png">
+
+
+### Lift force Readings:
+<img width="400" alt="Lift" src="https://user-images.githubusercontent.com/43975216/214070408-bc5abbf1-cf03-4db1-9f79-b08866dddc15.png">
+
 
 ## Calculations
 
